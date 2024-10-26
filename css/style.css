@@ -69,9 +69,6 @@ ul {
   height: 52px;
 }
 
-.header__lang-links {
-}
-
 .header__lang-link {
   font-size: 24px;
   line-height: 28px;
@@ -82,9 +79,6 @@ ul {
 }
 
 /* ------------------ HEADER END ------------------ */
-
-.main {
-}
 
 /* ------------------ LEAD START ------------------ */ 
 
@@ -157,9 +151,6 @@ ul {
   line-height: 163%;
 }
 
-.lead__list {
-}
-
 .lead__list-item {
   font-size: 12px;
   line-height: 18px;
@@ -206,9 +197,6 @@ ul {
 
 .places__mini-place {
   max-height: 584px;
-}
-
-.places__place-geo {
 }
 
 .places__place__title {
@@ -347,13 +335,6 @@ ul {
 
 .footer__list-item:not(:last-child) {
   margin-right: 18px;
-}
-
-.footer__list-item-link {
-}
-.link {
-}
-.footer__copyright {
 }
 
 /* ------------------ FOOTER END ------------------ */
