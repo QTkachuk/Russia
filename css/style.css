@@ -339,3 +339,71 @@ ul {
 
 /* ------------------ FOOTER END ------------------ */
 
+/* ------------------ MEDIA START ------------------ */
+
+/* стили для планшета в альбомной ориентации */
+@media screen and (max-width: 1024px) {
+  .header {
+    margin-bottom: 48px;
+  }
+
+  .big-container {
+    max-width: 928px;
+  }
+
+  .mini-container {
+    max-width: 928px;
+  }
+
+  .lead__image {
+    width: 928px;
+    height: 580px;
+  }
+
+  .photo-grid__container {
+    margin-left: 48px;
+  }
+
+  .photo-grid__grid {
+    grid-template-columns: repeat(3, 300px);
+    grid-gap: 14px;
+  }
+  
+  .photo-grid__grid-item {
+    width: 300px;
+    height: 225px;
+  }
+
+  .places__place {
+    max-width: 928px;
+    max-height: 640px;
+  }
+  
+  .places__mini-place {
+    max-height: 564px;
+  }
+  
+  .places__place__image {
+    width: 440px;
+    height: 440px;
+  }
+
+  .baical__container {
+    max-width: 1024px;
+    max-height: 640px;
+  }
+
+  .baical__background {
+    width: 1024px;
+    height: 640px;
+  }
+
+  .baical__info {
+    top: 195px;
+    left: 232px;
+  }
+
+  .footer__container {
+    max-width: 928px;
+  }
+}
